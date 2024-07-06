@@ -3,8 +3,8 @@
 .App {
   text-align: center;
   margin-top: 20px;
-  background-color: #f3e0c5; 
-  min-height: 100vh; 
+  background-color: #f3e0c5;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +13,34 @@
 .Profile {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #d0b28c; 
+  border: 1px solid #d0b28c;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fffbe6; 
+  background-color: #fffbe6;
+}
+
+.Skills {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #020202;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0eee6;
+}
+
+.WorkExperience {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #f00606;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffe88a;
+}
+.educationInfo {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #7520ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #9acf43;
 }

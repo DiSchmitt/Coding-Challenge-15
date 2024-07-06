@@ -1,20 +1,74 @@
-import React from 'react';
-import './App.css';
-//Task 1: Setup the React enviroment
-//Task 2: Create a component to display your name, a brief biography, and contact information such as email and LinkedIn.
+//U4888-2664
+//Task 1:Creating the react enviroment.
+import React from "react";
+import "./App.css";
+import Profile from "./Profile";
+import Skill1 from "./Skill1";
+import Skill2 from "./Skill2";
+import Skill3 from "./Skill3";
+import Experience from "./Experience";
+import Education from "./Education";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Profile</h1>
+        <h1>Profile and Skills</h1>
       </header>
-      <div className="Profile">
-        <h1>Dawson Schmitt</h1>
-        <h4>About Me:</h4> 
-        <p> I am 20 years of age and am attending the University of South Florida as a junior. I am studying to earn a bachelors in Business analytics and information systems. I enjoy listening to video game soundtracks and my favorite game is Deep Rock Galactic.</p>
-        <h4>Contact information:</h4>
-        <p> dischmitt@usf.edu</p> 
-        <p>https://www.linkedin.com/in/dawson-schmitt-510144301/</p>
+      <Profile />
+      <div className="Skills">
+        <h2>Skills</h2>
+        <Skill1
+          name="JavaScript"
+          level="Competent"
+          text="I am able to use javascript to produce code that does what I want, but it takes some time and trial and error."
+        />
+        <Skill2
+          name="Soccer"
+          level="Casually Good"
+          text="I have played soccer for a few years casually as a defender and prevented many opportunities for shots on goals."
+        />
+        <Skill3
+          name="Cooking"
+          level="Good"
+          text="I am able to follow recipies well and nearly always turn out with a dish that does not deviate often from what was expected."
+        />
+      </div>
+      <div className="WorkExperience">
+        <h2>Work Experience</h2>
+        <Experience
+          title="Crew Member"
+          company="Moes Southwest Grill"
+          duration="July 2021 - September 2021"
+        />
+        <Experience
+          title="Back of House Member"
+          company="Chick-fil-a"
+          duration="June 2023 - Present"
+        />
+      </div>
+      <div className="educationInfo">
+        <h2>Education</h2>
+        <Education
+          institutionName="Parkside Christian Homeschool"
+          degree="High School Diploma"
+          years="August 2007 - June 2022"
+        />
+        <Education
+          institutionName="Hillsborough Community College"
+          degree="Associate of Arts"
+          years="August 2020 - June 2022, January 2023 - December 2023"
+        />
+        <Education
+          institutionName="Palm Beach Atlantic"
+          degree="N/A"
+          years="August 2022 - December 2023)"
+        />
+        <Education
+          institutionName="University of South Florida"
+          degree="Associate of Arts"
+          years="January 2024 - Present"
+        />
       </div>
     </div>
   );
