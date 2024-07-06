@@ -1,0 +1,20 @@
+/* Task 2: Style this section to make it visually appealing and reflective of your personal brand. */
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f3e0c5; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #d0b28c; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fffbe6; 
+}
